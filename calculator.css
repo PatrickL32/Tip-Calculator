@@ -1,0 +1,48 @@
+
+    /* Styles the entire page */
+    body {
+        font-family: sans-serif;
+        display: flex; /* This and the next two lines center the calculator vertically and horizontally */
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Makes the body take up the full height of the screen */
+        background: linear-gradient(rgb(233, 91, 91), rgb(226, 205, 85), orange); 
+        margin: 0; /* Removes default browser margin */
+    }
+
+    /* Styles the white box containing the calculator */
+    .calculator {
+        padding: 20px;
+        border-radius: 8px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+        width: 300px;
+    }
+
+    /* Styles the number input boxes */
+    input {
+        width: 95%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    /* Styles the "Calculate" button */
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color:black; /* A nice blue color */
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer; /* Shows a hand cursor on hover */
+    }
+
+    /* Styles the area where the results will be shown */
+    #results {
+        margin-top: 20px;
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
